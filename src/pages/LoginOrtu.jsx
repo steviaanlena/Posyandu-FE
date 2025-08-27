@@ -54,7 +54,7 @@ function LoginOrtu() {
         <p className="login-type-text">Anda Login sebagai Orang Tua.</p>
 
         <p className="register-link-text">
-          <Link to="/daftar-kader">Daftar sebagai kader</Link>
+          <Link to="/login-kader">Login sebagai kader</Link>
         </p>
         
         {error && <div className="error-message">{error}</div>}

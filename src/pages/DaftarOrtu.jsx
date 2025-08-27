@@ -256,7 +256,7 @@ function DaftarOrtu() {
         
         <p className="login-type-text">Anda Daftar sebagai Orang Tua.</p>
         <p className="register-link-text">
-          <Link to="/login-kader">Login sebagai Kader</Link>
+          <Link to="/daftar-kader">Daftar sebagai Kader</Link>
         </p>
         
         {error && <div className="error-message" style={{color: 'red', marginBottom: '10px', padding: '10px', border: '1px solid red', borderRadius: '4px', backgroundColor: '#ffe6e6'}}>{error}</div>}
