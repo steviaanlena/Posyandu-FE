@@ -100,19 +100,19 @@ function App() {
           
           {/* Protected routes */}
           <Route
-            path="/dashboard-kader"
+            path="/halaman-utama-kader"
             element={
               <ProtectedRoute userType="Kader">
-                <DashboardKader />
+                <HalamanUtamaKader />
               </ProtectedRoute>
             }
           />
           
           <Route
-            path="/dashboard-ortu"
+            path="/halaman-utama-ortu"
             element={
               <ProtectedRoute userType="Ortu">
-                <DashboardOrtu />
+                <HalamanUtamaOrtu />
               </ProtectedRoute>
             }
           />

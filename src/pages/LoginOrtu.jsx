@@ -28,7 +28,7 @@ function LoginOrtu() {
       
       if (response.success) {
         // Navigate to dashboard after login
-        navigate('/dashboard-ortu')
+        navigate('/halaman-utama-ortu')
       } else {
         setError(response.message || 'Login gagal')
       }
