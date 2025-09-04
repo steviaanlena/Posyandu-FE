@@ -27,7 +27,7 @@ function LoginKader() {
       
       if (response.success) {
         // Navigate to dashboard after login
-        navigate('//halaman-utama-kader')
+        navigate('/halaman-utama-kader')
       } else {
         setError(response.message || 'Login gagal')
       }
