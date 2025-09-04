@@ -52,7 +52,7 @@ function LoginKader() {
         <p className="klogin-type-text">Anda Login sebagai Kader.</p>
         
         <p className="kregister-link-text">
-          <Link to="/daftar-ortu">Daftar sebagai Ortu</Link>
+          <Link to="/login-ortu">Login sebagai Ortu</Link>
         </p>
 
         {error && <div className="kerror-message">{error}</div>}
