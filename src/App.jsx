@@ -70,7 +70,6 @@ function App() {
           <Route path='/detail-anak' element={<DetailAnak />}/> 
           <Route path='/daftar-hadir-anak' element={<DaftarHadirAnak />}/> 
           <Route path='/daftar-hadir-kader' element={<DaftarHadirKader />}/> 
-          <Route path='/halaman-utama-kader' element={<HalamanUtamaKader />}/> 
           <Route path='/riwayat-vitamin' element={<RiwayatVitamin />}/> 
           <Route path='/riwayat-vaksin' element={<RiwayatVaksin />}/> 
           <Route path='/informasi-kesehatan/artikel-kesehatan' element={<ArtikelKesehatan />}/> 
