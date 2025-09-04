@@ -16,7 +16,7 @@
   min-height: 100vh;
   padding: 20px;
   background: linear-gradient(to bottom, #f5f5f5, #6a9c89);
-  width: 100vw; /* Use viewport width */
+  width: 150vw; /* Use viewport width */
   max-width: 100%;
   overflow-x: hidden;
   box-sizing: border-box;
@@ -29,7 +29,7 @@
   border-radius: 10px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
   width: 100%;
-  max-width: 450px;
+  max-width: 700px;
   text-align: center;
   color: white;
 }
@@ -118,7 +118,7 @@
 /* Register link */
 .kregister-link-text {
   margin-top: 1.5rem;
-  font-size: 0.9rem;
+  font-size: 1.2rem;
 }
 
 /* Register link styling */
